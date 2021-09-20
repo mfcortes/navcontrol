@@ -1,0 +1,10 @@
+###
+GET http://localhost:9000/api HTTP/1.1
+
+###
+POST http://localhost:9000/api/device HTTP/1.1
+Content-Type: application/json
+
+{
+    "uniqueid":"757221"
+}
